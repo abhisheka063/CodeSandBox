@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; */
+  margin: 2px;
+}
+.tooltiptext {
+  display: none;
+}
+.tooltip:hover .tooltiptext {
+  margin: 2px;
+  z-index: 1;
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  position: relative;
+  /* top:100%; */
+}
+/* For top  bottom:50px; and bottom top:100%*/
+/* For left 
+right:100%;
+bottom:25px;*/
