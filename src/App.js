@@ -14,13 +14,16 @@ export default function App() {
     right: {
       left: "100%",
       top: "-25px"
+    },
+    bottom: {
+      bottom: "0px"
     }
   };
 
   return (
     <div className="App">
       <h1>React Classic</h1>
-      <ToolTip position={styles.top} />
+      <ToolTip position={styles.bottom} />
     </div>
   );
 }
