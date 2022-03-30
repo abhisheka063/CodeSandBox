@@ -2,6 +2,7 @@ import "./styles.css";
 import ToolTip from "./Tooltip";
 
 export default function App() {
+  // Creating position styles and passing them as props
   let styles = {
     left: {
       right: "100%",
