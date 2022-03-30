@@ -7,7 +7,7 @@
   position: relative;
   display: inline-block;
   /* border-bottom: 1px dotted black; */
-  margin: 2px;
+  margin: 2%;
 }
 .tooltiptext {
   display: none;
